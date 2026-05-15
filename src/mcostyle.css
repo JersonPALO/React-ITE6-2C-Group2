@@ -5,20 +5,17 @@
 }
 
 body {
-  /* Changed to a soft, professional gray-to-white gradient */
   background: linear-gradient(to bottom, lightslategray, whitesmoke);
   background-repeat: no-repeat;
-  background-attachment: fixed; /* Added so the gradient covers the whole page nicely when scrolling */
+  overflow-x: hidden;
 }
 
 html { scroll-behavior: smooth; }
 
-/* Header */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* Deep, elegant header background */
   background: linear-gradient(to bottom, midnightblue, darkslategray);
   padding: 19px;
   margin: 0px;
@@ -30,7 +27,6 @@ header h1 {
   font-weight: bolder;
   letter-spacing: 2px;
   padding-left: 30px;
-  /* Swapped green/brown for cohesive blues */
   background: linear-gradient(to right, steelblue, darkslateblue); 
   padding: 10px;
   border-radius: 100px;
@@ -58,7 +54,6 @@ a.a1, a.a2, a.a3 {
   margin: 5px;
 }        
 
-/* Homepage */
 .homepg {
   text-align: center;
   font-family: sans-serif;
@@ -71,13 +66,12 @@ a.a1, a.a2, a.a3 {
   transform: scale(1.4);
 }
 
-/* About Ourself */
 .about-ourself {
   text-align: center;
   margin: 200px;
   padding: 30px;
   color: midnightblue;
-  background-color: aliceblue; /* Soft, readable background */
+  background-color: aliceblue; 
   border-radius: 20px;
   border: 5px solid lightslategray;
 }
@@ -106,7 +100,6 @@ a.a1, a.a2, a.a3 {
   margin: 20px 0; 
 }
 
-/* Members */
 .Inline {
   display: flex;
   gap: 20px;
@@ -115,7 +108,7 @@ a.a1, a.a2, a.a3 {
 }
 
 .cards {
-  background: floralwhite; /* Warmer than stark white */
+  background: floralwhite; 
   border-radius: 20px;
   padding: 20px;
   margin: 20px;
@@ -138,7 +131,6 @@ ul {
   padding-left: 40px; 
 }
 
-/* Activities */
 .activities {
   text-align: center;
   background-color: midnightblue;
@@ -174,10 +166,9 @@ ul {
   transform: scale(1.1); 
 }
 
-/* Footer */
 footer {
   padding: 40px 60px 60px 60px;
   margin: 70px 200px 60px 200px;
-  color: darkslategray; /* Made dark so it's readable against the whitesmoke body gradient */
+  color: darkslategray; 
   text-align: center;
 }

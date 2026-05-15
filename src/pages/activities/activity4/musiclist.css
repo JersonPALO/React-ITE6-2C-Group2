@@ -1,6 +1,6 @@
 body {
   background-color: Black; 
-  color: White; 
+  color: black; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -8,7 +8,7 @@ body {
   max-width: 900px;
   margin: 40px auto;
   padding: 20px;
-  box-shadow: 0 10px 30px white;
+  box-shadow: 0 10px 30px black;
   border-radius: 14px;
 }
 
@@ -21,7 +21,7 @@ body {
 
 .header-row {
   border-bottom: 1px solid DimGray; 
-  color: Silver; 
+  color: darkblue; 
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -42,7 +42,7 @@ body {
 }
 
 .track-number {
-  color: Gray;
+  color: darkblue;
   font-size: 14.4px;
 }
 
@@ -52,15 +52,15 @@ body {
 
 .track-name {
   font-weight: 500;
-  color: White;
+  color: black;
 }
 
 .track-sub {
   font-size: 13.6px;
-  color: DarkGray;
+  color: darkcyan;
 }
 
 .track-album-name, .track-duration-time {
-  color: Gray;
+  color: darkblue;
   font-size: 14.4px;
 }
