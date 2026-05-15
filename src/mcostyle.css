@@ -10,7 +10,9 @@ body {
   overflow-x: hidden;
 }
 
-html { scroll-behavior: smooth; }
+html { 
+  scroll-behavior: smooth; 
+}
 
 header {
   display: flex;
@@ -19,6 +21,8 @@ header {
   background: linear-gradient(to bottom, midnightblue, darkslategray);
   padding: 19px;
   margin: 0px;
+  position: sticky;top: 0;
+  z-index: 1000;
 }
 
 header h1 {
@@ -94,10 +98,20 @@ a.a1, a.a2, a.a3 {
   color: darkslategray; 
 }
 
+.img {
+  border-radius: 20px;
+  object-fit: cover;
+  border: 5px solid lightsteelblue;
+}
+
 .group-name { 
   font-size: 80px; 
   color: darkslategray; 
   margin: 20px 0; 
+}
+
+.members-title { 
+  padding: 30px 0 0 0;
 }
 
 .Inline {

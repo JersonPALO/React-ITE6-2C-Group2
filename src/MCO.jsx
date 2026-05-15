@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import "./mcostyle.css";
+import myImage from './img.jpg';
 
 const MCO = () => {
   return (
     <>
-      {/* Header */}
       <header>
         <h1>OURPG</h1>
         <nav>
@@ -14,20 +14,20 @@ const MCO = () => {
         </nav>
       </header>
 
-      {/* Homepage Section */}
       <section id="homepage" className="homepg">
         <h1>MAJOR COURSE OUTPUT 2</h1>
         <h2>ITE 6 - Application Development and Emerging Technologies</h2>
       </section>
 
-      {/* About Ourself Section */}
       <section id="AboutUs" className="about-ourself">
         <h2>About Us:</h2>
         <h5 className="group-name">Group 6</h5>
+        <div>
+          <img src={myImage} className="img" alt="Group Photo" />
+        </div>
 
-        <h2>MEMBERS:</h2>
+        <h2 className="members-title">MEMBERS:</h2>
         <div className="Inline">
-          {/* Member 1 */}
           <div className="cards">
             <p><strong>Name:</strong> Maria Fe Velasco Erella</p>
             <p><strong>Age:</strong> 26</p>
@@ -44,7 +44,6 @@ const MCO = () => {
             </ul>
           </div>
 
-          {/* Member 2 */}
           <div className="cards">
             <p><strong>Name:</strong> Jerson Palomeras</p>
             <p><strong>Age:</strong> 19</p>
@@ -59,7 +58,6 @@ const MCO = () => {
             </ul>
           </div>
 
-          {/* Member 3 */}
           <div className="cards">
             <p><strong>Name:</strong> Denzel Winston Ortiz</p>
             <p><strong>Age:</strong> 21</p>
@@ -74,7 +72,6 @@ const MCO = () => {
             </ul>
           </div>
 
-          {/* Member 4 */}
           <div className="cards">
             <p><strong>Name:</strong> Maria Mae Gonzaga</p>
             <p><strong>Age:</strong> 20</p>
@@ -95,7 +92,6 @@ const MCO = () => {
         </div>
       </section>
 
-      {/* Activities Section */}
       <section id="Activities" className="activities">
         <h2>Our Laboratory Activities:</h2>
         <Link to="/Activity1">Activity 1</Link>
@@ -105,7 +101,6 @@ const MCO = () => {
         <Link to="/Activity5">Activity 5</Link>
       </section>
 
-      {/* Footer */}
       <footer>
         <h4>@2026 THANK YOU FOR VISITING.</h4>
       </footer>
