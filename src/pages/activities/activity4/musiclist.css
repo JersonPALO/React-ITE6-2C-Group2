@@ -1,0 +1,66 @@
+body {
+  background-color: Black; 
+  color: White; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.music-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  box-shadow: 0 10px 30px white;
+  border-radius: 14px;
+}
+
+.header-row, .track-row {
+  display: grid;
+  grid-template-columns: 40px 3fr 2fr 1fr;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.header-row {
+  border-bottom: 1px solid DimGray; 
+  color: Silver; 
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.track-row {
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: all 0.2s ease-in-out; 
+}
+
+.track-row:hover {
+  background-color: rgba(248, 248, 255, 0.1); 
+  transform: scale(1.01);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.track-number {
+  color: Gray;
+  font-size: 14.4px;
+}
+
+.track-main-info p {
+  margin: 0;
+}
+
+.track-name {
+  font-weight: 500;
+  color: White;
+}
+
+.track-sub {
+  font-size: 13.6px;
+  color: DarkGray;
+}
+
+.track-album-name, .track-duration-time {
+  color: Gray;
+  font-size: 14.4px;
+}
